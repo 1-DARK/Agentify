@@ -9,10 +9,8 @@ import ScrollIndicator from '../components/ScrollIndicator'
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-deep-dark text-white relative">
-   
-      
       <ScrollIndicator />
-      <HeroSection onGetStarted={handleGetStarted} />
+      <HeroSection  />
       <FeaturesSection />
       <VoiceDemo />
       <PricingSection />
